@@ -1,8 +1,10 @@
 * dispersal model
 
-This pyshon code attempts to replicate the model used in:
+This python code attempts to replicate the model used in:
 
-Modelling single nucleotide effects in /phosphoglucose isomerase/ on dispersal in the Glanville fritillary butterfly: coupling of ecological and evolutionary dynamics. 2009. Chaozhi Zheng, Otso Ovaskainen and Ilkka Hanski. Philosophical Transactions of the Royal Society B: Biological Sciences. doi: https://doi.org/10.1098/rstb.2009.0005
+Modelling single nucleotide effects in /phosphoglucose isomerase/ on dispersal in the Glanville fritillary butterfly: coupling of ecological and evolutionary dynamics. 2009. Chaozhi Zheng, Otso Ovaskainen and Ilkka Hanski. Philosophical Transactions of the Royal Society B: Biological Sciences. doi: 10.1098/rstb.2009.0005
+
+Modelling dispersal with diffusion and habitat selection: Analytical results for highly fragmented landscapes. 2009. Chaozhi Zheng, Juho Pennanen and Otso Ovaskainen. Ecological Modelling. doi: 10.1016/j.ecolmodel.2009.02.024
 
 The simulation code utilises a priority (heap) queue for storing individual entities and always picking the one which is about to act next.
 
