@@ -1,5 +1,5 @@
 * dispersal model
-
+  
 This python code attempts to replicate the model used in:
 
 Modelling single nucleotide effects in /phosphoglucose isomerase/ on dispersal in the Glanville fritillary butterfly: coupling of ecological and evolutionary dynamics. 2009. Chaozhi Zheng, Otso Ovaskainen and Ilkka Hanski. Philosophical Transactions of the Royal Society B: Biological Sciences. doi: 10.1098/rstb.2009.0005
@@ -10,11 +10,11 @@ The simulation code utilises a priority (heap) queue for storing individual enti
 
 The code is in two parts:
 
-** landscape.py
+** ~landscape.py~
 
-todo
+usage: ~python3 landscape.py -i test-par.json -o test-ls.json~
 
-** simulation.py
+** ~simulation.py~
 
-todo
+usage: ~python3 simulation.py -p test-par.json -d test-ls.json -s 1~
 
